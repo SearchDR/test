@@ -1,3 +1,5 @@
+#ifndef MIDDLE_H_INCLUDED
+#define MIDDLE_H_INCLUDED
 #include <iostream>
 using namespace std;
 void itc_num_print(int number);
@@ -18,4 +20,4 @@ int itc_rev_bin_num(long long number);
 int itc_rev_oct_num(long long number);
 int itc_covert_num(long long number,int ss);
 int itc_rev_covert_num(long long number,int ss);
-
+#endif // MIDDLE_H_INCLUDED
